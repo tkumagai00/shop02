@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+
+/*外枠*/
+.frame {
+  border-width: 2px;
+  border-color: #dcdcdc;
+  border-style: solid;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/*タイトル*/
+.title{
+  background-color: #4A7EBB;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  padding: 7px 0;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/*divのデフォルト値設定*/
+div{
+  margin: 0;
+  padding: 0;
+}
+
+/*点滅*/
+.my-blink{
+  animation:blink 2.0s linear;
+}
+@keyframes blink{
+  11%,21%,31%,41%,51%,61%,71%,81%,91%,100% {opacity:0;}
+  0%,10%,20%,30%,40%,50%,60%,70%,80%,90% {opacity:1;}
+}
